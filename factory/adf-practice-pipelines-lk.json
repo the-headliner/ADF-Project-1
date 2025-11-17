@@ -1,0 +1,9 @@
+{
+	"name": "adf-practice-pipelines-lk",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a3983961-2f9b-4c4b-927f-46b2a6a0a48b",
+		"tenantId": "88522b3f-190d-4947-b812-c60cadab7973"
+	}
+}
