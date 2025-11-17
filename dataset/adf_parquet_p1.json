@@ -10,7 +10,8 @@
 		"type": "Parquet",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation"
+				"type": "AzureBlobFSLocation",
+				"folderPath": "sales"
 			},
 			"compressionCodec": "snappy"
 		},
