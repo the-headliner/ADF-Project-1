@@ -1,0 +1,19 @@
+{
+	"name": "adf_parquet_p1",
+	"properties": {
+		"description": "Parquet files will land here to this sink",
+		"linkedServiceName": {
+			"referenceName": "ls_adf_pipeleine1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
